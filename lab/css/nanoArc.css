@@ -1,0 +1,177 @@
+/* landing */
+.line-height-2{
+    line-height: 2;
+}
+h2{
+    font-size: 2rem;
+}
+p{
+    font-size: 1rem;
+}
+
+/* Test Ui */
+header{
+    z-index: 100;
+}
+.questionRow{
+    height: 3rem;
+}
+.indicatorDot{
+    font-size: 1.7rem;
+}
+#qnSiteMap .modal-dialog {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    /* margin-left: 0; */
+}
+
+#qnSiteMap {
+    padding-right: 0 !important;
+    transition: all 2s;
+}
+
+#qnSiteMap .modal-dialog,
+#qnSiteMap .modal-content,
+#qnSiteMap .modal-body {
+    transition: all 2s;
+}
+
+#qnSiteMap .modal-content {
+    min-height: 100vh;
+    border: 0;
+    border-radius: 0;
+}
+#qnSiteMap .close {
+    font-size: 3.255rem;
+    font-weight: 500;
+}
+.modal.fade .modal-dialog {
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+    transform: translate(0);
+}
+
+@media (max-width: 700px) {
+    #qnSiteMap .modal-content {
+        min-width: 100vw;
+        max-width: 100vw;
+        margin: 0;
+        padding: 0;
+        overflow: scroll;
+        /* height: unset; */
+    }
+}
+
+#qnSiteMap .close {
+    font-size: 2rem;
+}
+
+.timeClock{
+    bottom:3px;
+    width: 30px;
+}
+.qnHeading{
+    color: rgba(61, 74, 99, 1);
+}
+.answerBtn input[type=radio]{
+    opacity: 0;
+}
+
+.answerBtn input[type=radio]:checked ~ .answerBtn{
+    border: 2px solid #09E176;
+}
+.title{
+    font-size: 1.2rem;
+}
+
+.bg-texture{
+    background-color: #F5F8F8;
+}
+.text-texture{
+    color: #F5F8F8;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.custom-btn{
+    max-width: 7.1rem;
+}
+
+/* Report Page */
+       
+.banner{
+    background: url('../images/nanoArc/bannerBg.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 18rem;
+}
+@media (max-width: 1200px){
+    .banner{
+        background-size: cover;
+    }
+}
+.bannerText{
+    top: 3rem;
+}
+.bannerText h3{
+    font-size: 1.625rem;
+}
+.bannerText p{
+    font-size: 1.125rem;
+}
+.banner-bg{
+    background-color: #5652E7;
+}
+.bannerTitle{
+    font-size: 1.125rem;
+}
+.average-bg{
+    background-color: #1D7DF8;
+}
+.bg-texture{
+    background-color: #F5F8F8;
+}
+
+.text-heading{
+    color: rgba(61, 74, 99, 1);
+}
+.text-coolGrey{
+    color: rgba(136, 144, 160, 1);
+}
+#timeTaken .progress-bar{
+    background-image: none;
+}
+#timeTaken .progress{
+    height: 0.5rem;
+}
+.reportHead{
+    font-size: 1.1rem;
+}
+#reportAccordion p{
+    font-size: 1.125rem;
+}
+.scoreCard{
+    min-height: 17.5rem;
+}
+.d-sub{
+        display: none;
+    }
+@media (min-width: 1750px){
+    .scoreCard .circle-progress{
+        padding: 0 0.75rem;
+    }
+    .d-sub{
+        display: inline-block;
+    }
+}   
+.hollow-circle{
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 100%;
+    border: 4px solid;
+}     
+.options{
+    max-width: 100% !important;
+}
