@@ -9,7 +9,7 @@ def solution_checker(user):
     outputfile = "output/" + user + ".txt"
     os.system("gcc " + inputfile + " -o " + user)
     os.system("./" + user + " > " + outputfile)
-    infile = open("output/originalinput.txt")
+    infile = open("output/originaloutput.txt")
     outfile = open(outputfile)
     i = 0
     for line1 in infile:
